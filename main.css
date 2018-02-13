@@ -1,0 +1,253 @@
+body {
+ font-family: 'Noto Serif', serif;
+}
+
+
+/* main */
+.main {
+  width: 98.8%;
+  height: 98vh;
+  border: 10px solid #476A6F;
+}
+
+.main-left {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 60%;
+  height: 100%;
+  float: left;
+
+}
+
+.main-right {
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+}
+
+
+/* general */
+article {
+  width: 33.3%;
+  height: 33.4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-size: 30px;
+  margin-top: 45px;
+  margin-left: 6%;
+}
+
+.card-one-p {
+  margin-left: 6%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* cards */
+.card-one {
+  width: 66.6%;
+  background-color: #3E5C76;
+  display: inline;
+}
+
+.card-two {
+  background-color: #413654;
+}
+
+.card-three {
+  background-color: #4C9196;
+}
+
+.card-four {
+  background-color: #2E5266;
+ 
+}
+
+.card-five {
+  background-color: #087E8B;
+}
+
+.card-six {
+  background-color: #0B334C;
+}
+
+.card-seven {
+  background-color: #413654;
+}
+
+.card-ten {
+  background-color: #2E5266;
+}
+
+.card-nine {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url(http://www.beachsun.org/gulfzen/wp-content/uploads/2015/04/zendog.jpg);
+  background-position: center;
+}
+
+.circles {
+  position: relative;
+  top: -40%;
+  left: 37%;
+}
+
+/* image */
+.button-img {
+  width: 19px;
+  vertical-align: text-top;
+}
+
+.icon {
+  height: 50px;
+  margin-bottom: 5px;
+}
+
+.top-circle {
+  display: inline;
+  width: 20px;
+}
+/* icons */
+
+/* buttons */
+.dog-bttn {
+  background: none;
+  font-size: 14px;
+  height: 33px;
+  width: 100px;
+  font-weight: 700;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.dog-one {
+  margin-left: 5%;
+}
+
+.arrow-bttn {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  background: transparent;
+  border: none;
+}
+
+.left-bttn {
+  left: -41%;
+}
+
+.right-bttn {
+  right: -41%;
+  top: -45px;
+}
+
+/* hovers */
+.dog-bttn:hover {
+  transform: rotate(37deg);
+  opacity: .5;
+}
+
+.hover:hover {
+  opacity: .9;
+}
+
+.left-bttn:hover,
+.right-bttn:hover {
+  transform: rotate(37deg);
+}
+
+/* media */
+
+@media screen and (max-width: 950px) {
+  .main {
+    border: none;
+  }
+
+  .main-left,
+  .main-right {
+    width: 50%;
+  }
+  
+  .main-right {
+    position: fixed;
+  }
+
+  .card {
+   width: 50%;
+  }
+
+  .card-one {
+   width: 100%;
+  }
+  
+  .card-ten {
+   width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main {
+    width: 100%;
+  }
+  .main-left {
+    width: 40%;
+  }
+
+  .main-right {
+    width: 60%;
+  }
+
+  /*.card {
+    width: 100%;
+  }*/
+}
+
+
+@media screen and (max-width: 775px) {
+  .main-left {
+    width: 100%;
+    margin-top: 443px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .main-right {
+    width: 100%;
+    position: absolute;
+  }
+
+  .card {
+    width: 50%;
+  }
+  
+  .card-one,
+  .card-ten {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .card {
+    height: 29.4%;
+  }
+}
+
+@media screen and (max-width: 318px) {
+  .card {
+    height: 23.4%;
+  }
+  
+  .dog-one {
+    margin-top: 9px;
+  }
+}
