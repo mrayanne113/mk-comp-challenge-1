@@ -22,7 +22,7 @@ Push your final work to github pages
 
 
 
-[![orignal](images/their-comp-desktop.png)](orignal comp)
-[![my desktop](images/my-comp-desktop.png)](my desktop comp)
-[![my tablet](images/my-comp-tablet.png)](my tablet comp)
-[![my mobile](images/my-comp-mobile.png)](my mobile comp)
+[[orignal](images/their-comp-desktop.png)](orignal comp)
+[[my desktop](images/my-comp-desktop.png)](my desktop comp)
+[[my tablet](images/my-comp-tablet.png)](my tablet comp)
+
